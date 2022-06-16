@@ -1,0 +1,190 @@
+body{
+	font-family: Lato;
+	color: #606060;
+	font-size: 14px;
+}
+
+.wrap-container{
+	overflow-x: hidden;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.row-padding{
+	padding: 100px 0px;
+}
+
+.no-margin{
+	margin: 0px;
+}
+
+.card-padding{
+	padding: 30px;
+}
+
+.btn{
+	background: #3a95e4;
+	color: white;
+	font-size: 12px;
+	letter-spacing: 2px;
+	display: inline-block;
+	padding: 7px 19px;
+	border-radius: 3px;
+	text-decoration: none;
+}
+
+.btn:hover{
+	cursor: pointer;
+	text-decoration: none;
+	background: #45a6f9;
+	color:white;
+}
+
+.home-weeedid{
+	margin-top: 150px;
+}
+
+.home-weeedid h1{
+	font-weight: 300;
+	letter-spacing: 3px;
+}
+
+.home-weeedid h4 {
+    font-weight: 300;
+    margin-top: 20px;
+    font-size: 21px;
+    letter-spacing: 2px;
+}
+
+.showcase{
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+.showcase img{
+	width: 85%;
+}
+
+h5.quotes{
+	font-size: 23px;
+	line-height: 35px;
+	letter-spacing: 1px;
+	color: #4e4e4e;
+}
+h6.penulis{
+	font-size: 17px;
+	margin-top: 20px;
+	letter-spacing: 1px;
+}
+.card-floating{
+	border-top: 5px solid #5bacf3;
+	overflow: hidden;
+	box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+}
+.card-title{
+	font-weight: 300;
+}
+
+.border-line{
+	position: relative;
+}
+.border-line::before{
+	content: '';
+	position: absolute;
+	display: block;
+	top: 50%;
+	left: -500px;
+	right: -500px;
+	height: 1px;
+	background-color: #d0d0d0;
+}
+
+.navbar-weeedid{
+	background: transparent;
+	margin-top: 50px;
+}
+
+.navbar-light .navbar-toggler{
+	cursor: pointer;
+	font-size: 16px;
+	padding: 5px 7px;
+}
+
+.nav-li-weeedid li{
+	margin-left: 30px;
+}
+
+.row-divider{
+	position: relative;
+}
+.row-divider::before{
+	content: '';
+    display: block;
+    width: 80%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -40%;
+    height: 1px;
+    background: radial-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0) 100%);
+}
+
+.head-section{
+	margin-bottom: 60px;
+}
+
+.teknologi img{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.teknologi h5{
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+
+@media (max-width: 540px) { 
+
+	.home-weeedid{
+		margin-top: 150px;
+		margin-bottom: 100px;
+	}
+
+	.navbar-weeedid{
+		background: #f9f9f9;
+		margin-top: 0px;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		z-index: 9;
+	}
+
+	h3.clean-code{
+		margin-top: 20px;
+	}
+
+	.head-section{
+		margin-bottom: 30px;
+	}
+
+	.nav-li-weeedid li{
+		margin-left: 0px;
+	}
+
+	.card-title{
+		font-size: 17px;
+	}
+
+	.row-padding{
+		padding: 50px 0px;
+	}
+
+	.img-content{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+}
